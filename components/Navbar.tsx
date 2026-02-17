@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center gap-2">
             <a href="/" className="flex items-center">
               <img
-                src="/assets/md_logo.jpeg"
+                src="/assets/md_logo.png"
                 alt="MD Security Services"
                 className="h-12 w-auto object-contain"
               />

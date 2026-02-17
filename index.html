@@ -1,15 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MD Security Services | Professional Guarding Solutions</title>
+  <link rel="icon" type="image/png" href="/assets/md_logo.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-    
+
     :root {
       --md-red: #d12300;
       --md-blue: #1e3a8a;
@@ -22,15 +23,24 @@
       color: #333;
     }
 
-    .bg-md-red { background-color: var(--md-red); }
-    .text-md-red { color: var(--md-red); }
-    .border-md-red { border-color: var(--md-red); }
-    
+    .bg-md-red {
+      background-color: var(--md-red);
+    }
+
+    .text-md-red {
+      color: var(--md-red);
+    }
+
+    .border-md-red {
+      border-color: var(--md-red);
+    }
+
     .btn-red {
       background-color: var(--md-red);
       color: white;
       transition: all 0.3s ease;
     }
+
     .btn-red:hover {
       background-color: #b51e00;
     }
@@ -59,32 +69,71 @@
       transform: translateY(15px);
       transition: all 0.6s ease-out;
     }
+
     .reveal.active {
       opacity: 1;
       transform: translateY(0);
     }
+
     /* Custom Animations for Hero */
     @keyframes slowZoom {
-      0% { transform: scale(1); }
-      50% { transform: scale(1.08); }
-      100% { transform: scale(1); }
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.08);
+      }
+
+      100% {
+        transform: scale(1);
+      }
     }
+
     @keyframes float {
-      0% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(-15px) rotate(1deg); }
-      100% { transform: translateY(0px) rotate(0deg); }
+      0% {
+        transform: translateY(0px) rotate(0deg);
+      }
+
+      50% {
+        transform: translateY(-15px) rotate(1deg);
+      }
+
+      100% {
+        transform: translateY(0px) rotate(0deg);
+      }
     }
+
     @keyframes pulse-soft {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.8; transform: scale(0.98); }
+
+      0%,
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      50% {
+        opacity: 0.8;
+        transform: scale(0.98);
+      }
     }
-    .animate-zoom { animation: slowZoom 30s ease-in-out infinite; }
-    .animate-float { animation: float 6s ease-in-out infinite; }
-    .animate-pulse-soft { animation: pulse-soft 4s ease-in-out infinite; }
+
+    .animate-zoom {
+      animation: slowZoom 30s ease-in-out infinite;
+    }
+
+    .animate-float {
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .animate-pulse-soft {
+      animation: pulse-soft 4s ease-in-out infinite;
+    }
 
     .hero-glow {
       text-shadow: 0 0 30px rgba(209, 35, 0, 0.4);
     }
+
     .glass-card {
       background: rgba(255, 255, 255, 0.05);
       backdrop-filter: blur(12px);
@@ -102,10 +151,12 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
+
 <body>
   <div id="root"></div>
-<script type="module" src="/index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>
