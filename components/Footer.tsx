@@ -12,14 +12,13 @@ const Footer: React.FC = () => {
           {/* Column 1: Company Info */}
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <div className="flex items-center">
-                <span className="text-3xl font-black text-white leading-none">M</span>
-                <span className="text-3xl font-black text-md-red leading-none">D</span>
-                <div className="ml-2 border-l-2 border-white/20 pl-2 leading-tight">
-                  <div className="text-[10px] font-bold text-white uppercase tracking-tighter">Security</div>
-                  <div className="text-[10px] font-bold text-gray-400 uppercase tracking-tighter">Services</div>
-                </div>
-              </div>
+              <a href="/" className="flex items-center">
+                <img
+                  src="/assets/md_logo.jpeg"
+                  alt="MD Security Services"
+                  className="h-12 w-auto object-contain brightness-0 invert"
+                />
+              </a>
             </div>
             <p className="text-gray-400 text-[12px] leading-relaxed">
               Leading the way in professional guarding solutions. We provide elite security services tailored to protect your assets, people, and peace of mind.
